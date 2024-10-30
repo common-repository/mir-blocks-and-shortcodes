@@ -1,0 +1,24 @@
+{
+  "name": "shortcodes-plugin/mir-blocks-and-shortcodes",
+  "description": "It's a shortcode toolbox which makes your wordpress live much easier.",
+  "type": "project",
+  "license": "For Commercial Use",
+  "authors": [
+    {
+      "name": "Make It Run GmbH",
+      "email": "mail@mirsoftware.de"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "leafo/scssphp": "0.7.*"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "MSCInc\\": "./inc"
+    }
+  }
+}

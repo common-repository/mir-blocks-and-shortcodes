@@ -1,0 +1,28 @@
+{
+  "name": "shortcodes-plugin",
+  "version": "1.0.0",
+  "description": "It's a shortcode toolbox which makes your wordpress live much easier.",
+  "author": "Make It Run GmbH <mail@mirsoftware.de> (https://mirsoftware.de)",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "PHP",
+    "composer",
+    "gulp",
+    "es6",
+    "scss"
+  ],
+  "devDependencies": {},
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browser": {
+    "jquery": "./node_modules/jquery/dist/jquery.js"
+  },
+  "browserify-shim": {
+    "jquery": "$"
+  },
+  "dependencies": {}
+}
